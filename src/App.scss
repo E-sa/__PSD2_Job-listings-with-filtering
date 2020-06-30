@@ -1,0 +1,200 @@
+@import "~bootstrap/scss/bootstrap";
+
+$body-color: rgb(205, 168, 240);
+$company-name: #d609a1;
+$new: chartreuse;
+$featured: grey;
+* {
+  padding: 0;
+  margin: 0;
+
+}
+
+body{
+  background-color: $body-color;
+}
+
+
+
+
+
+
+
+
+
+  .each{
+    display: flex;
+    flex-direction: row;
+    border: burlywood 1px solid;
+    width: 75%;
+    background-color: #f5e9f5;
+    margin: auto;
+    margin-bottom: 20px;
+    border-left: 8px burlywood solid;
+    border-radius: 4px;
+  }
+
+  .one{
+    img{
+      margin: 20px;
+    }
+  }
+
+  .two{
+    margin: 20px;
+
+    .company{
+      margin-right: 10px;
+      display: inline;
+      color: $company-name;
+    }
+    .new{
+      margin-right: 8px;
+      display: inline;
+      background: $new;
+      border-radius: 7px;
+      font-size: 13px;
+      padding: 0px 5px;
+      font-weight: bold;
+    }
+
+    .featured{
+      display: inline;
+      background-color: $featured;
+      color: black;
+      border-radius: 7px;
+      font-size: 13px;
+      padding: 0px 5px;
+      font-weight: bold;
+    }
+
+    .time-contract-location{
+      display: inline;
+      color: #9d9999;
+      margin-right: 35px;
+      font-size: 14px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
+
+
+
+
+.three{
+  display: flex;           /* establish flex container */
+  flex-direction: column;  /* make main axis vertical */
+  justify-content: center; /* center items vertically, in this case */
+  align-items: center;     /* center items horizontally, in this case */
+  
+
+  .skill{
+    display: inline;
+    background-color: burlywood;
+    margin: 4px;
+    font-size: 12px;
+    border-radius: 3px;
+    padding: 0px 4px;
+
+    
+  }
+}
+
+
+.sara{
+  background-color: blueviolet;
+}
+
+
+
+// this is filter.scss
+
+
+
+$filter-background:rgb(56, 49, 49);
+$filter-cross: #7FFF00;
+
+
+*{
+  margin: 0;
+  padding: 0;;
+}
+
+
+.form-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+    
+  .form-control{
+    width: 60%;
+    margin-top: 15px;
+  
+  }
+  
+  
+  
+  button{
+    height: 40px;
+    background-color: black;
+    color: wheat;
+    margin-top: 14px;  
+  
+  }
+
+
+
+  
+
+  }
+
+
+  .filter{
+    margin: auto;
+    width: 50%;
+    margin-bottom: 8px;
+
+    div{
+      display: inline-block;
+      margin-right: 8px;
+    }
+
+    li{
+      color: white;
+      display: inline-block;
+      background-color: $filter-background;
+      padding: 3px;
+      text-decoration: none;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+
+    button{
+      display: inline-block;
+      background-color: $filter-cross;
+      padding: 3px;
+      border: none;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+  }
