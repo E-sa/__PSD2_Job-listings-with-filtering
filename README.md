@@ -19,7 +19,7 @@ To run:
   
   
   Also LIVE version is available on:
-  [https://job-listings-with-filtering-zeta.vercel.app/]
+  [https://job-listings-with-filtering-zeta.vercel.app/]  (VPN might be require)
   
   How to work with SEARCH INPUT:
   
