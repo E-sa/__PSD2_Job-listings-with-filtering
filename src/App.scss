@@ -27,12 +27,12 @@ body{
   .each{
     display: flex;
     flex-direction: row;
-    border: burlywood 1px solid;
+    border: hsl(180, 8%, 52%) 1px solid;
     width: 75%;
-    background-color: hsl(180, 31%, 95%);
+    background-color: white;
     margin: auto;
     margin-bottom: 20px;
-    border-left: 8px burlywood solid;
+    border-left: 8px hsl(180, 8%, 52%) solid;
     border-radius: 4px;
   }
 
