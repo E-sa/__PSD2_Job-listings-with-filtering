@@ -3,7 +3,7 @@
 $body-color: hsl(180, 52%, 96%);
 $company-name: #d609a1;
 $new: chartreuse;
-$featured: grey;
+$featured: hsl(180, 14%, 20%);
 
 
 * {
@@ -63,7 +63,7 @@ body{
     .featured{
       display: inline;
       background-color: $featured;
-      color: black;
+      color: white;
       border-radius: 7px;
       font-size: 13px;
       padding: 0px 5px;
