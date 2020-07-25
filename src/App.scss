@@ -1,9 +1,11 @@
 @import "~bootstrap/scss/bootstrap";
 
-$body-color: rgb(205, 168, 240);
+$body-color: hsl(180, 52%, 96%);
 $company-name: #d609a1;
 $new: chartreuse;
 $featured: grey;
+
+
 * {
   padding: 0;
   margin: 0;
@@ -27,7 +29,7 @@ body{
     flex-direction: row;
     border: burlywood 1px solid;
     width: 75%;
-    background-color: #f5e9f5;
+    background-color: hsl(180, 31%, 95%);
     margin: auto;
     margin-bottom: 20px;
     border-left: 8px burlywood solid;
